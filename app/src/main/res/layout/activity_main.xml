@@ -14,18 +14,13 @@
         android:layout_height="0dp"
         android:layout_weight="2">
 
-
         <TextView
-
             android:id="@+id/titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tituloA"
             android:textSize="25sp"
-            android:gravity="center"
-
-            ></TextView>
-
+            android:gravity="center" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,21 +36,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ladoUno">
-
-        </TextView>
+            android:text="@string/ladoUno" />
 
         <EditText
             android:id="@+id/ladouno"
             android:layout_width="0dp"
             android:layout_weight="4"
-            android:layout_height="wrap_content">
-
-
-
-        </EditText>
-
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,22 +57,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ladoDos">
-
-        </TextView>
+            android:text="@string/ladoDos" />
 
         <EditText
             android:id="@+id/ladoDos"
             android:layout_width="0dp"
             android:layout_weight="4"
-            android:layout_height="wrap_content">
-
-
-
-        </EditText>
-
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -101,26 +81,13 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="center"
-
-            >
-
-        </TextView>
+            android:gravity="center" />
 
         <Button
             android:id="@+id/calcular"
             android:text="@string/calcular"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            >
-
-
-        </Button>
-
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
-
-
 
 </LinearLayout>
